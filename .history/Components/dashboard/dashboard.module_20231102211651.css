@@ -1,0 +1,170 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 1rem;
+  height: 7vh;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  top: 0;
+
+  list-style: none;
+}
+
+.li {
+  list-style: none;
+
+  margin: 0 1rem;
+  padding: 0.5rem 0;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.user_photo_container {
+  width: 2.5rem;
+  height: 2.5rem;
+
+  cursor: pointer;
+  position: relative;
+}
+
+.user_photo {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+/*  */
+
+.main_flex {
+  display: flex;
+}
+
+/* CONTAINER 1   */
+.container_1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 21vw;
+  height: 93vh;
+  text-align: center;
+  padding: 1.5rem 0.5rem;
+  row-gap: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  user-select: none;
+}
+
+.week_name_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 0.5rem;
+  padding: 0.55rem;
+  width: 100%;
+  white-space: pre-wrap; /* This allows the text to wrap onto the next line. */
+  word-wrap: break-word;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  box-shadow: 0 0 0 0.2rem white;
+}
+.week_day_name_initial {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 0.1rem 0;
+
+  background-color: white;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.week_day_name {
+  font-size: 0.77rem;
+  color: var(--text-color-light);
+}
+
+/* this highlights the selected week day */
+.selected_week_styles {
+  background-color: var(--color-1-light);
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0 0.2rem var(--color-1-light);
+}
+
+/* FILTER STYLES */
+.container_2 {
+  width: 100%;
+  padding: 0.5rem 0;
+}
+
+.meal_types_container {
+  width: 79vw;
+  display: flex;
+
+  row-gap: 0.7rem;
+
+  /* background-color: pink; */
+  column-gap: 0.5rem;
+  padding: 1rem;
+  overflow: scroll;
+  user-select: none;
+}
+
+.meal_types_container::-webkit-scrollbar {
+  display: none;
+}
+
+.meal_type_style {
+  background-color: beige;
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0.1rem 0.05rem rgba(0, 0, 0, 0.078);
+}
+
+.selected_meal_type_style {
+  background-color: var(--color-1-light);
+}
+
+/* ==================== */
+
+.container_2_sub_main_container {
+  padding: 1rem;
+}
+
+/* HEADINGS  */
+
+.headings {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.35rem;
+  margin: 0.5rem 0;
+}
+
+.headings > p {
+  font-size: 0.9rem;
+  color: var(--text-color-light-black);
+}
+
+/* DISH IMAGES */
+
+.dishes_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1rem;
+  margin: 2rem 0 5rem 0;
+}
+.dish_image_container {
+  width: 100%;
+  height: 100%;
+}
+
+.dish_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  box-shadow: 0 0 0 0.1rem rgba(0, 0, 0, 0.1);
+}

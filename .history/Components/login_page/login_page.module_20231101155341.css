@@ -1,0 +1,10 @@
+.top_parent_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.mobile_login_image_style {
+}

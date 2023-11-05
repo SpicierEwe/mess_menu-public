@@ -1,0 +1,9 @@
+.top_parent_container {
+  overflow: hidden;
+}
+
+.mobile_login_image_style {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

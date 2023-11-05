@@ -1,0 +1,51 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 1rem;
+  height: 7vh;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  top: 0;
+
+  list-style: none;
+}
+
+.li {
+  list-style: none;
+
+  margin: 0 1rem;
+  padding: 0.5rem 0;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.user_photo_container {
+  width: 2.5rem;
+  height: 2.5rem;
+
+  cursor: pointer;
+  position: relative;
+}
+
+.user_photo {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+/*  */
+
+.main_flex {
+  display: flex;
+  align-items: center;
+}
+
+.container_1 {
+  width: 20vw;
+  background-color: pink;
+  /* height - nav height */
+  height: 93vh;
+}
+.container_2 {
+}

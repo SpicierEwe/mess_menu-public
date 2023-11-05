@@ -1,0 +1,8 @@
+.top_parent_container {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile_login_image_style {
+}

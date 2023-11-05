@@ -1,0 +1,215 @@
+[
+  {
+    "monday": [
+      {
+        "breakfast": [
+          {
+            "dish_name": "chole bhature",
+            "dish_type": "veg",
+            "dish_id": "1950",
+            "dish_id": "1950",
+            "dish_image_link": ""
+          },
+          {
+            "dish_name": "bread butter",
+            "dish_type": "veg",
+            "dish_id": "1950",
+            "dish_image_link": ""
+          },
+          {
+            "dish_name": "chole bhature",
+            "dish_type": "veg",
+            "dish_id": "1950",
+            "dish_image_link": ""
+          },
+          {
+            "dish_name": "bread butter",
+            "dish_type": "veg",
+            "dish_id": "1950",
+            "dish_image_link": ""
+          }
+        ]
+      },
+      {
+        "lunch": [
+          {
+            "dish_name": "aloo gobhi",
+            "dish_type": "veg",
+            "dish_id": "1950",
+            "dish_image_link": ""
+          },
+          {
+            "dish_name": "aloo mutter",
+            "dish_type": "veg",
+            "dish_id": "1950",
+            "dish_image_link": ""
+          }
+        ]
+      },
+      {
+        "snacks": [
+          {
+            "dish_name": "bun makhan chai",
+            "dish_type": "veg",
+            "dish_id": "1950",
+            "dish_image_link": ""
+          },
+          {
+            "dish_name": "pav bhaji",
+            "dish_type": "veg",
+            "dish_id": "1950",
+            "dish_image_link": ""
+          }
+        ]
+      },
+      {
+        "dinner": [
+          {
+            "dish_name": "aloo do payaza",
+            "dish_type": "veg",
+            "dish_id": "1950",
+            "dish_image_link": ""
+          },
+          {
+            "dish_name": "paneer hyderabadi",
+            "dish_type": "veg",
+            "dish_id": "1950",
+            "dish_image_link": ""
+          }
+        ]
+      }
+    ],
+    "tuesday": [
+      {
+        "breakfast": [
+          {
+            "dish_name": "pao bhaji",
+            "dish_type": "veg",
+            "dish_id": "1950",
+            "dish_image_link": ""
+          },
+          {
+            "dish_name": "corn flakes",
+            "dish_type": "veg",
+            "dish_id": "1950",
+            "dish_image_link": ""
+          }
+        ]
+      },
+      {
+        "lunch": [
+          {
+            "dish_name": "masala chola",
+            "dish_type": "veg",
+            "dish_id": "1950",
+            "dish_image_link": ""
+          },
+          {
+            "dish_name": "soyabean",
+            "dish_type": "veg",
+            "dish_id": "1950",
+            "dish_image_link": ""
+          }
+        ]
+      },
+      {
+        "snacks": [
+          {
+            "dish_name": "sandwitch",
+            "dish_type": "veg",
+            "dish_id": "1950",
+            "dish_image_link": ""
+          },
+          {
+            "dish_name": "tikki",
+            "dish_type": "veg",
+            "dish_id": "1950",
+            "dish_image_link": ""
+          }
+        ]
+      },
+      {
+        "dinner": [
+          {
+            "dish_name": "mixed veg",
+            "dish_type": "veg",
+            "dish_id": "1950",
+            "dish_image_link": ""
+          },
+          {
+            "dish_name": "kabuli channe",
+            "dish_type": "veg",
+            "dish_id": "1950",
+            "dish_image_link": ""
+          }
+        ]
+      }
+    ],
+    "wednesday": [
+      {
+        "breakfast": [
+          {
+            "dish_name": "poha",
+            "dish_type": "veg",
+            "dish_id": "1950",
+            "dish_image_link": ""
+          },
+          {
+            "dish_name": "upma",
+            "dish_type": "veg",
+            "dish_id": "1950",
+            "dish_image_link": ""
+          }
+        ]
+      },
+      {
+        "lunch": [
+          {
+            "dish_name": "matar panner",
+            "dish_type": "veg",
+            "dish_id": "1950",
+            "dish_image_link": ""
+          },
+          {
+            "dish_name": "butter paneer",
+            "dish_type": "veg",
+            "dish_id": "1950",
+            "dish_image_link": ""
+          }
+        ]
+      },
+      {
+        "snacks": [
+          {
+            "dish_name": "samosa chai",
+            "dish_type": "veg",
+            "dish_id": "1950",
+            "dish_image_link": ""
+          },
+          {
+            "dish_name": "sprouts",
+            "dish_type": "veg",
+            "dish_id": "1950",
+            "dish_image_link": ""
+          }
+        ]
+      },
+      {
+        "dinner": [
+          {
+            "dish_name": "mixed veg",
+            "dish_type": "veg",
+            "dish_id": "1950",
+            "dish_image_link": ""
+          },
+          {
+            "dish_name": "puri aalo dum (spicy)",
+            "dish_type": "veg",
+            "dish_id": "1950",
+            "dish_image_link": ""
+          }
+        ]
+      }
+    ]
+  }
+]

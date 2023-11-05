@@ -1,0 +1,142 @@
+.top_parent_container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+/* art work styles */
+
+.art_work_container {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.art_work_style {
+  object-fit: cover;
+  object-position: left top;
+  scale: 1.5;
+  width: 100%;
+
+  filter: brightness(0.65) contrast(1.2);
+}
+
+/* dish image styles */
+
+.image_container {
+  overflow: hidden;
+  height: 50vh;
+}
+.mobile_login_image_style {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+
+  filter: brightness(0.65) contrast(1.2);
+}
+
+.info {
+  padding-top: 1.7rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  flex: 2;
+}
+
+.app_name {
+  font-family: "classic_serif";
+  font-weight: lighter;
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.info > p {
+  font-size: 0.9rem;
+
+  line-height: 1.5;
+  text-align: center;
+}
+
+.p1 {
+  padding: 0.3rem 1.5rem;
+}
+.p2 {
+  padding: 3rem 0rem 1rem 0;
+  color: var(--text-color-light);
+  font-style: italic;
+}
+
+/* google button styles */
+.google_button_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5rem;
+}
+
+.google_button {
+  padding: 1rem 2rem;
+  display: flex;
+  column-gap: 1rem;
+  background-color: white;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+
+  color: var(--text-color);
+}
+
+/* ===================================== */
+/* ===================================== */
+/* ===================================== */
+
+/* MEDIA QUERIES */
+
+/* ===================================== */
+/* ===================================== */
+/* ===================================== */
+
+@media (min-width: 768px) {
+  .top_parent_container {
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+  }
+  .image_container {
+    height: 100%;
+
+    flex: 2;
+  }
+  .info {
+    flex: 3;
+  }
+  .app_name {
+    font-size: 4.5rem;
+  }
+  .info > p {
+    font-size: 1.1rem;
+  }
+  .p1 {
+    padding: 0.3rem 2rem;
+  }
+  .p2 {
+    padding: 3rem 0rem 1rem 0;
+    font-size: 1.1rem;
+  }
+  .google_button_container {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .google_button {
+    width: 100%;
+    justify-content: flex-start;
+    font-size: 1.1rem;
+  }
+}
