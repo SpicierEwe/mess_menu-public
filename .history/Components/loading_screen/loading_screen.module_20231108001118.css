@@ -18,8 +18,6 @@
   animation: blipping 1s infinite;
   background-color: wheat;
   border-radius: 50%;
-
-  margin-bottom: 20px;
 }
 
 @keyframes blipping {

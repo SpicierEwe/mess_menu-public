@@ -10,10 +10,8 @@
 .logo {
   position: absolute;
   z-index: 99;
-  width: 70px;
-  height: 70px;
-  top: 3%;
-  left: 5%;
+  width: 50px;
+  height: 50px;
   animation: blipping 1s infinite;
   background-color: wheat;
   border-radius: 50%;
@@ -129,13 +127,6 @@
     flex-direction: row;
     width: 100vw;
     height: 100vh;
-  }
-
-  .logo {
-    height: 100px;
-    width: 100px;
-    top: 5%;
-    left: 3%;
   }
   .image_container {
     height: 100%;

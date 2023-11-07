@@ -155,6 +155,21 @@ function DashboardComponent() {
     meal_types_list[0]
   );
 
+  // scroll to meal type heading
+  function scroll_to_meal_type_heading() {
+    // Calculate the scroll position to include a margin for the header
+    const scrollPosition = mealTypeHeadingRefs[index].current.offsetTop - 150; // Adjust the margin as needed
+
+    // Scroll to the calculated position
+    window.scrollTo({
+      top: scrollPosition,
+      behavior: "smooth",
+    });
+  }
+
+  useEffect(() => {
+    scroll_to_meal_type_heading();
+  }, [selected_meal_type]);
   // each individually fetched weekdays are stored here collectively
   const [meal_table_data, set_meal_table_data] = useState([]);
 
@@ -466,18 +481,6 @@ function DashboardComponent() {
                 <div
                   onClick={() => {
                     set_selected_meal_type(type.toLowerCase());
-
-                    function scroll_to_meal_type_heading() {
-                      // Calculate the scroll position to include a margin for the header
-                      const scrollPosition =
-                        mealTypeHeadingRefs[index].current.offsetTop - 150; // Adjust the margin as needed
-
-                      // Scroll to the calculated position
-                      window.scrollTo({
-                        top: scrollPosition,
-                        behavior: "smooth",
-                      });
-                    }
 
                     scroll_to_meal_type_heading();
                   }}

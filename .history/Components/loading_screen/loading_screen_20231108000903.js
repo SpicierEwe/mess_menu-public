@@ -5,7 +5,6 @@ function LoadingScreenComponent() {
   return (
     <div className={styles.container}>
       <Image
-        className={styles.logo}
         src="/images/logo/company_logo.png"
         alt="loading_screen"
         height="500"

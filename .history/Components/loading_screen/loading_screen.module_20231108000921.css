@@ -1,0 +1,19 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+
+  transition: all 0.3s ease-in-out;
+  opacity: 1;
+  visibility: visible;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}

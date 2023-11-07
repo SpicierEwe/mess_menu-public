@@ -16,11 +16,11 @@ function LoginComponent() {
   return (
     <div className={styles.top_parent_container}>
       <Image
-        className={styles.logo}
-        src="/images/logo/company_logo.png"
-        alt="loading_screen"
-        height="500"
-        width="500"
+        className={styles.background_image}
+        src="/images/login_page_images/daal_4k.jpg"
+        alt="login_page"
+        layout="fill"
+        priority={true}
       ></Image>
       {/* ONLY DIPLAYED FOR Mobiles */}
 

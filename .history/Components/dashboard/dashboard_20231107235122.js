@@ -467,6 +467,16 @@ function DashboardComponent() {
                   onClick={() => {
                     set_selected_meal_type(type.toLowerCase());
 
+                    // Calculate the scroll position to include a margin for the header
+                    const scrollPosition =
+                      mealTypeHeadingRefs[index].current.offsetTop - 150; // Adjust the margin as needed
+
+                    // Scroll to the calculated position
+                    window.scrollTo({
+                      top: scrollPosition,
+                      behavior: "smooth",
+                    });
+
                     function scroll_to_meal_type_heading() {
                       // Calculate the scroll position to include a margin for the header
                       const scrollPosition =
@@ -478,8 +488,6 @@ function DashboardComponent() {
                         behavior: "smooth",
                       });
                     }
-
-                    scroll_to_meal_type_heading();
                   }}
                   className={`${
                     selected_meal_type.toLowerCase() === type.toLowerCase()

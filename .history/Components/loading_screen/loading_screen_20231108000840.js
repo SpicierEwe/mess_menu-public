@@ -5,11 +5,10 @@ function LoadingScreenComponent() {
   return (
     <div className={styles.container}>
       <Image
-        className={styles.logo}
         src="/images/logo/company_logo.png"
         alt="loading_screen"
-        height="500"
-        width="500"
+        height="1500"
+        width="1500"
       ></Image>
     </div>
   );

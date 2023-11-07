@@ -6,8 +6,8 @@ import LoadingScreenComponent from "@/Components/loading_screen/loading_screen";
 function Home() {
   return (
     <div>
-      <DashboardComponent></DashboardComponent>
-      {/* <LoadingScreenComponent></LoadingScreenComponent> */}
+      {/* <DashboardComponent></DashboardComponent> */}
+      <LoadingScreenComponent></LoadingScreenComponent>
     </div>
   );
 }

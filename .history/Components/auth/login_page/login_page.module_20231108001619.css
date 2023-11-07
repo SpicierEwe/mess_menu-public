@@ -15,7 +15,7 @@
   top: 3%;
   left: 5%;
   animation: blipping 1s infinite;
-  background-color: wheat;
+  background-color: white;
   border-radius: 50%;
 
   margin-bottom: 20px;
@@ -129,13 +129,6 @@
     flex-direction: row;
     width: 100vw;
     height: 100vh;
-  }
-
-  .logo {
-    height: 100px;
-    width: 100px;
-    top: 5%;
-    left: 3%;
   }
   .image_container {
     height: 100%;
