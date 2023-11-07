@@ -1,0 +1,82 @@
+/* AboutProjectPage.module.css */
+
+.bg {
+  background-image: url("https://images.unsplash.com/photo-1581600140682-d4e68c8cde32?auto=format&fit=crop&q=80&w=1888&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+
+  background-attachment: fixed;
+}
+.aboutProjectPage {
+  max-width: 50rem;
+  margin: 0 auto;
+  margin-top: 3rem;
+  padding: 20px;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  /* GLASS EFFECT */
+
+  background-color: rgba(255, 255, 255, 0.642);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.header {
+  background-color: var(--designer-personal-color);
+  color: #fff;
+  padding: 10px 0;
+  border-radius: 10px 10px 0 0;
+}
+
+.header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.content {
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.content h2 {
+  font-size: 20px;
+  margin: 20px 0;
+  color: #3498db;
+}
+
+.content p {
+  font-size: 16px;
+  margin: 0 0 20px;
+}
+
+.creator {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.creatorImage {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+.creator p {
+  font-size: 18px;
+
+  margin: 0;
+  text-align: left;
+}
