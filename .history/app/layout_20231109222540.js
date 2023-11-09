@@ -7,9 +7,9 @@ import Head from "next/head";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Meal Menu",
+  title: "Create Next App",
   description:
-    "Meal Menu App allows you to vote for your favourite meals. The dish with max votes is selected and is served.",
+    "Meal Menu App allows you to vote for your favourite meals. The dish with max votes is selected.",
 };
 
 export default function RootLayout({ children }) {
