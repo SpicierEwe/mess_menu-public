@@ -1,0 +1,7 @@
+.main_container {
+  overflow: auto;
+}
+
+.flex {
+  display: flex;
+}

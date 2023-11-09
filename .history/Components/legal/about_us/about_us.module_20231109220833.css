@@ -1,0 +1,94 @@
+/* AboutProjectPage.module.css */
+
+.bg {
+  background-image: url("/images/indian_food_bg.jpeg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: repeat;
+  min-height: 100vh;
+  width: 100%;
+}
+.aboutProjectPage {
+  max-width: 50rem;
+
+  margin: 0 auto;
+  margin-top: 3rem;
+  padding: 20px;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  /* GLASS EFFECT */
+
+  background-color: rgba(255, 255, 255, 0.779);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.header {
+  color: #fff;
+  padding: 10px 0;
+  border-radius: 10px 10px 0 0;
+  color: black;
+}
+
+.header h1 {
+  font-size: 3rem;
+  font-weight: normal;
+  margin: 0;
+  font-family: "classic_serif";
+}
+
+.content {
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.content h2 {
+  font-size: 1.3rem;
+  margin: 20px 0;
+  font-weight: 500;
+}
+
+.creator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem auto;
+}
+
+.creatorRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.creatorImage {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+.creator_info {
+  padding: 1rem 0 1.5rem 0;
+}
+.creator_name {
+  font-size: 1rem;
+
+  margin: 0;
+}
+.creator_role {
+  font-size: 18px;
+
+  margin: 0;
+}
