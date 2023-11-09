@@ -72,9 +72,10 @@ function NavComponent(props) {
               </li>
             </Link>
             <Link href={"/"}>
+              {" "}
               <li>
                 <p className={styles.app_name}>MESS MENU</p>
-              </li>
+              </li>{" "}
             </Link>
           </div>
 
