@@ -101,30 +101,6 @@
   margin: 0;
 }
 
-
-.portfolio_button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: .5rem;
-  margin-top: 2rem;
-  padding: 0.5rem 1rem;
-  border: none;
-  border-radius: 5px;
-  border: 1px solid #223c63;
-  color: #223c63;
-
-  font-size: 1rem;
-  cursor: pointer;
-  transition: all 0.3s;
-}
-
-.portfolio_button:hover {
-  background-color: #223c63;
-  color: white;
-
-}
-
 @media (min-width: 768px) {
   .creatorRow {
     column-gap: 7rem;

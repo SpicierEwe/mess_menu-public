@@ -53,11 +53,7 @@ function AboutUsComponent() {
                 <p className={styles.creator_role}>-{creators[0].role}</p>
               </div>
 
-              <a
-                target="_blank"
-                href="https://hammadtayyab.vercel.app/"
-                className={styles.portfolio_button}
-              >
+              <a href="" className={styles.portfolio_button}>
                 <p>Portfolio</p>
                 <FiArrowUpRight />
               </a>

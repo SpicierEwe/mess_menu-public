@@ -112,8 +112,7 @@
   border: none;
   border-radius: 5px;
   border: 1px solid #223c63;
-  color: #223c63;
-
+  color: white;
   font-size: 1rem;
   cursor: pointer;
   transition: all 0.3s;
@@ -121,8 +120,6 @@
 
 .portfolio_button:hover {
   background-color: #223c63;
-  color: white;
-
 }
 
 @media (min-width: 768px) {

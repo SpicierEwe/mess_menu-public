@@ -3,7 +3,6 @@ import styles from "./about_us.module.css";
 import NavComponent from "@/Components/nav/nav";
 import Image from "next/image";
 import { GoPerson } from "react-icons/go";
-import { FiArrowUpRight } from "react-icons/fi";
 
 function AboutUsComponent() {
   const creators = [
@@ -53,14 +52,7 @@ function AboutUsComponent() {
                 <p className={styles.creator_role}>-{creators[0].role}</p>
               </div>
 
-              <a
-                target="_blank"
-                href="https://hammadtayyab.vercel.app/"
-                className={styles.portfolio_button}
-              >
-                <p>Portfolio</p>
-                <FiArrowUpRight />
-              </a>
+              <div>Portfolio</div>
             </div>
           </div>
         </div>

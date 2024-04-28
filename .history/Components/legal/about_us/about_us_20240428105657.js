@@ -54,7 +54,6 @@ function AboutUsComponent() {
               </div>
 
               <a
-                target="_blank"
                 href="https://hammadtayyab.vercel.app/"
                 className={styles.portfolio_button}
               >

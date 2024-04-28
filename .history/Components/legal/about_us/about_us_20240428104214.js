@@ -2,15 +2,23 @@ import React from "react";
 import styles from "./about_us.module.css";
 import NavComponent from "@/Components/nav/nav";
 import Image from "next/image";
-import { GoPerson } from "react-icons/go";
-import { FiArrowUpRight } from "react-icons/fi";
 
 function AboutUsComponent() {
   const creators = [
     {
-      name: "Hammad Bin Tayyab",
-      role: "Project Manager",
-      image: "",
+      name: "Hammafd ",
+      role: "Designer",
+      image: "/images/creators/3.jpg",
+    },
+    {
+      name: "Abishek Panda",
+      role: "Frontend Developer",
+      image: "/images/creators/2.jpg",
+    },
+    {
+      name: "Deepak Yadav",
+      role: "Backend Developer",
+      image: "/images/creators/1.jpg",
     },
   ];
   return (
@@ -36,31 +44,34 @@ function AboutUsComponent() {
           <h2>Creators</h2>
           <div className={styles.creator}>
             <div className={styles.creator_1} key={0}>
-              {/* <Image
+              <Image
                 src={creators[0].image}
                 alt={creators[0].name}
                 height={100}
                 width={100}
                 className={styles.creatorImage}
-              /> */}
-              <GoPerson
-                size={100}
-                className={styles.creatorImage}
-                color="white"
               />
               <div className={styles.creator_info}>
                 <p className={styles.creator_name}>{creators[0].name}</p>
                 <p className={styles.creator_role}>-{creators[0].role}</p>
               </div>
-
-              <a
-                target="_blank"
-                href="https://hammadtayyab.vercel.app/"
-                className={styles.portfolio_button}
-              >
-                <p>Portfolio</p>
-                <FiArrowUpRight />
-              </a>
+            </div>
+            <div className={styles.creatorRow}>
+              {creators.slice(1).map((creator, index) => (
+                <div key={index + 1}>
+                  <Image
+                    src={creator.image}
+                    alt={creator.name}
+                    height={100}
+                    width={100}
+                    className={styles.creatorImage}
+                  />
+                  <div className={styles.creator_info}>
+                    <p className={styles.creator_name}>{creator.name} </p>
+                    <p className={styles.creator_role}>-{creator.role}</p>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </div>

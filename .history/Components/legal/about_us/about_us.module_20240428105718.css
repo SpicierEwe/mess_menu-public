@@ -122,7 +122,7 @@
 .portfolio_button:hover {
   background-color: #223c63;
   color: white;
-
+  shadow
 }
 
 @media (min-width: 768px) {
